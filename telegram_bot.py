@@ -36,7 +36,7 @@ def handle_response(update, context):
             bot.send_message(chat_id=USER_ID, text="Информация перенесена в базу данных.")
             waiting_for_answer = False
         else:
-            bot.send_message(chat_id=USER_ID, text="Ждите следующего интервала для отчёта.")
+            bot.send_message(chat_id=USER_ID, text="Вы не успели в 30-минутный интервал для отчёта. Ждите следующего интервала.")
 
 def save_to_yandex_disk(text):
     try:
