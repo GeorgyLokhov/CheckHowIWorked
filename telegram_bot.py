@@ -71,7 +71,7 @@ def main():
     schedule.every().day.at("10:30").do(send_question)
     schedule.every().day.at("12:30").do(send_question)
     schedule.every().day.at("16:30").do(send_question)
-    schedule.every().day.at("17:55").do(send_question)  # Новое время запуска
+    schedule.every().day.at("18:05").do(send_question)  # Новое время запуска
     schedule.every().day.at("18:30").do(send_question)
     schedule.every().day.at("21:00").do(send_question)
     schedule.every().day.at("23:00").do(send_question)
